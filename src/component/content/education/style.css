@@ -1,0 +1,36 @@
+.text-content {
+    margin: 0 2rem;
+    background-color: rgb(75, 73, 75);
+    padding: 3rem;
+    border-radius: 0.25rem;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 0.25rem;
+    padding: 0 1rem;
+}
+
+.icon-dropdown {
+    width: 2rem;
+    height: 2rem;
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.content-information {
+    display: block;
+    transition: all 0.35s ease-in-out 0s;
+}
+
+@media (min-width: 1024px) {
+    .text-content {
+        margin: 0 10rem;
+    }
+}
