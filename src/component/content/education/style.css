@@ -1,36 +1,39 @@
 .text-content {
-    margin: 0 2rem;
-    background-color: rgb(75, 73, 75);
-    padding: 3rem;
-    border-radius: 0.25rem;
+  color: white;
+  margin: 0 2rem;
+
+  background-color: black;
+  padding: 3rem;
+  border-radius: 1rem;
 }
 
-.title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    border-radius: 0.25rem;
-    padding: 0 1rem;
+.title-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to left, rgba(48, 65, 221, 0.3), rgba(48, 65, 221, 0.5));
+  border-radius: 0.25rem;
+  padding: 0 1rem;
+  color: chartreuse;
 }
 
 .icon-dropdown {
-    width: 2rem;
-    height: 2rem;
-    margin: 5px;
+  width: 2rem;
+  height: 2rem;
+  margin: 5px;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .content-information {
-    display: block;
-    transition: all 0.35s ease-in-out 0s;
+  display: block;
+  transition: all 0.35s ease-in-out 0s;
 }
 
 @media (min-width: 1024px) {
-    .text-content {
-        margin: 0 10rem;
-    }
+  .text-content {
+    margin: 0 20rem;
+  }
 }

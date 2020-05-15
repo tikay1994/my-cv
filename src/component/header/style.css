@@ -1,21 +1,5 @@
-.menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid gray;
-    width: 100%;
-}
 .logo {
-    margin-right: 1rem;
-    width: 30px;
-    height: 30px;
-}
-
-.text-menu {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    font-size: 2rem;
-}
-.text-menu:hover {
-    color: greenyellow;
-    transition: all 0.45s ease-in-out;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
 }

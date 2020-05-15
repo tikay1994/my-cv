@@ -18,7 +18,8 @@ class Education extends React.Component {
   render() {
     const listEducation = [
       {
-        Name: "Education",
+        id: "Education",
+        Name: ">$ Education",
         ListChildren: [
           { name: "Coder-X" },
           { name: "Freecodecamp" },
@@ -26,7 +27,8 @@ class Education extends React.Component {
         ],
       },
       {
-        Name: "Skill",
+        id: "Skill",
+        Name: ">$ Skill",
         ListChildren: [
           { name: "HTML" },
           { name: "CSS" },
@@ -37,7 +39,8 @@ class Education extends React.Component {
         ],
       },
       {
-        Name: "Project",
+        id: "Project",
+        Name: ">$ Project",
         ListChildren: [
           { name: "Demo-MorningChores" },
           { name: "Demo-CodeSandbox" },
@@ -47,30 +50,49 @@ class Education extends React.Component {
     ];
     return (
       <div className="text-content">
-        <div>
-          {listEducation.map((edu, index) => (
-            <div key={index}>
-              <div className="title">
-                <p>{edu.Name}</p>
-                <svg
-                  class="icon icon-dropdown"
-                  fill="#FFF"
-                  viewBox="0 0 24 24"
-                  onClick={this.handleClick}
-                >
-                  <path d="M6.984 9.984h10.031l-5.016 5.016z"></path>
-                </svg>
-              </div>
-              {edu.ListChildren.map((des, index) => (
-                <div
-                  key={index}
-                  className={this.state.open ? "content-information" : "hidden"}
-                >
-                  <p>{des.name}</p>
+        <button
+          class="btn btn-dark my-2"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+          onClick={this.handleClick}
+        >
+          {this.state.open ? (
+            <svg class="icon icon-dropdown" fill="#FFF" viewBox="0 0 24 24">
+              <path d="M6.984 14.016l5.016-5.016 5.016 5.016h-10.031z"></path>
+            </svg>
+          ) : (
+            <svg class="icon icon-dropdown" fill="#FFF" viewBox="0 0 24 24">
+              <path d="M6.984 9.984h10.031l-5.016 5.016z"></path>
+            </svg>
+          )}
+        </button>
+        <div class="collapse show" id="collapseExample">
+          <div>
+            <div>
+              {listEducation.map((edu, index) => (
+                <div key={index}>
+                  <div id={edu.id} className="title-content">
+                    {edu.Name}
+                    <svg
+                      class="icon icon-dropdown"
+                      fill="#FFF"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M6.984 9.984h10.031l-5.016 5.016z"></path>
+                    </svg>
+                  </div>
+                  {edu.ListChildren.map((des, index) => (
+                    <div key={index} className="content-information">
+                      <p>{des.name}</p>
+                    </div>
+                  ))}
                 </div>
               ))}
             </div>
-          ))}
+          </div>
         </div>
       </div>
     );

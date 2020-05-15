@@ -6,8 +6,8 @@ function Footer(props) {
     <div className="footer">
       <img className="icon-logo" src={iconlogo} alt="logo"></img>
       <div>
-        <div>Happy Coding</div>
-        <div>Thanks and best regards</div>
+        <h2>Happy Coding</h2>
+        <h4>Thanks and best regards</h4>
       </div>
     </div>
   );
