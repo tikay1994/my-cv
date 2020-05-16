@@ -16,38 +16,6 @@ class Education extends React.Component {
   };
 
   render() {
-    // const listEducation = [
-    //   {
-    //     id: "Education",
-    //     Name: ">$ Education",
-    //     ListChildren: [
-    //       { name: "Coder-X" },
-    //       { name: "Freecodecamp" },
-    //       { name: "Tutorial of Easy Frontend on Youtube" },
-    //     ],
-    //   },
-    //   {
-    //     id: "Skill",
-    //     Name: ">$ Skill",
-    //     ListChildren: [
-    //       { name: "HTML" },
-    //       { name: "CSS" },
-    //       { name: "Javascript" },
-    //       { name: "ReactJS, ReactHook" },
-    //       { name: "Redux" },
-    //       { name: "FrameWork: Bootstrap, Tailwind" },
-    //     ],
-    //   },
-    //   {
-    //     id: "Project",
-    //     Name: ">$ Project",
-    //     ListChildren: [
-    //       { name: "Demo-MorningChores" },
-    //       { name: "Demo-CodeSandbox" },
-    //       { name: "WebPage pagination pictures" },
-    //     ],
-    //   },
-    // ];
     return (
       <div className="text-content">
         <button

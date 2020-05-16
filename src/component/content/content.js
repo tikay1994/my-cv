@@ -5,6 +5,7 @@ import Introduce from "./introduce/introduce";
 import "./style.css";
 import Contact from "./contact/contact";
 import icon from "../pic/abc.svg";
+
 function Content(props) {
   return (
     <div>
