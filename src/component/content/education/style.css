@@ -1,26 +1,40 @@
 .text-content {
   color: white;
-  margin: 0 2rem;
-
-  background-color: black;
-  padding: 3rem;
+  margin: 2rem;
+  background-image: linear-gradient(
+    to left,
+    rgba(35, 53, 218, 0.3),
+    rgba(3, 146, 127, 0.5)
+  );
+  padding: 1rem;
   border-radius: 1rem;
 }
 
 .title-content {
+  font-size: x-large;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(to left, rgba(48, 65, 221, 0.3), rgba(48, 65, 221, 0.5));
+  background-image: linear-gradient(
+    to left,
+    rgba(33, 33, 34, 0.3),
+    rgba(5, 7, 22, 0.5)
+  );
   border-radius: 0.25rem;
-  padding: 0 1rem;
+  padding: 0 3px;
+  margin-bottom: 2rem;
   color: chartreuse;
+}
+.icon-dropdown-content {
+  width: 3rem;
+  height: 3rem;
 }
 
 .icon-dropdown {
-  width: 2rem;
-  height: 2rem;
-  margin: 5px;
+  width: 3rem;
+  height: 3rem;
+  opacity: 0.8;
+  margin: 2rem 0;
 }
 
 .hidden {
@@ -28,12 +42,12 @@
 }
 
 .content-information {
-  display: block;
-  transition: all 0.35s ease-in-out 0s;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 @media (min-width: 1024px) {
   .text-content {
-    margin: 0 20rem;
+    margin: 2rem 10rem;
   }
 }

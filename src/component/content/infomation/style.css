@@ -20,23 +20,3 @@
   padding-top: 20px;
   padding-bottom: 5px;
 }
-
-.icon {
-  width: 2rem;
-  height: 2rem;
-  margin: 5px;
-}
-.icon-contact:hover {
-  fill: aquamarine;
-  transition: all 0.25s ease-in-out;
-}
-
-.contact-content {
-  margin-top: 2rem;
-}
-
-.contact-content:hover {
-  fill: aquamarine;
-  color: aquamarine;
-  transition: all 0.25s ease-in-out;
-}

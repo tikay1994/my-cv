@@ -1,0 +1,25 @@
+.main-contact-content {
+  padding: 10rem 0rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 3rem 2rem;
+}
+.icon-contact:hover {
+  fill: aquamarine;
+  transition: all 0.25s ease-in-out;
+  transform: scale(1.2);
+}
+
+.contact-content:hover {
+  color: aquamarine;
+  transition: all 0.25s ease-in-out;
+}
+
+.contact-content:hover .icon-contact-content {
+  fill: aquamarine;
+  transition: all 0.25s ease-in-out;
+  transform: scale(1.2);
+}
