@@ -74,7 +74,7 @@ function Header(props) {
         className="container-fluid background-top-behind-content"
         style={{ backgroundImage: `url(${backgroundtop})` }}
       >
-        <img className="desgin-background-behind" src={icon}></img>
+        <img className="design-background-behind" src={icon}></img>
       </div>
     </div>
   );

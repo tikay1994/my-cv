@@ -5,6 +5,7 @@ import Introduce from "./introduce/introduce";
 import "./style.css";
 import Contact from "./contact/contact";
 import icon from "../pic/abc.svg";
+import View from "./viewproject/view";
 
 function Content(props) {
   return (
@@ -12,10 +13,10 @@ function Content(props) {
       <Introduce />
       <Information />
       <Education />
-
+      <View />
       <div className="container-fluid relative-pic">
         <div className="background-behind-content">
-          <img className="desgin-background-behind" src={icon}></img>
+          <img className="design-background-behind" src={icon}></img>
         </div>
         <Contact />
       </div>
