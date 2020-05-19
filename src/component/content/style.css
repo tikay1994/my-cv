@@ -22,3 +22,9 @@
   left: 0;
   transform: translateY(1px);
 }
+
+@media (min-width: 640px) {
+  .background-behind-content {
+    background-attachment: local;
+  }
+}

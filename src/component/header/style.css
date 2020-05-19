@@ -1,7 +1,7 @@
 .logo {
   margin-right: 5px;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 .background-top-behind-content {
   background-repeat: no-repeat;
@@ -14,4 +14,10 @@
   right: 0;
   position: absolute;
   z-index: -1;
+}
+
+.navbar-text-style {
+  color: black;
+  font-size: 2rem;
+  margin-top: 4px;
 }
